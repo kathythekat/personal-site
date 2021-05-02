@@ -1,4 +1,4 @@
-import { Route, Switch } from "react-router";
+import { Route, Switch, Redirect } from "react-router";
 import About from "./About";
 import Home from "./Home";
 import Projects from "./Projects";
@@ -15,6 +15,7 @@ function Routes() {
       <Route exact path="/projects">
         <Projects />
       </Route>
+      <Redirect to="/" />
     </Switch>
   );
 }

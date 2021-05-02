@@ -2,7 +2,6 @@ import madlibs from "./images/madlibs.png";
 import petinder from "./images/petinder.png";
 import Popover from "./Popover";
 
-const PROJECT_IMAGES = [madlibs, petinder];
 const PROJECTS = [
   {
     name: "Madlibs",

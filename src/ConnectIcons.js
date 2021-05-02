@@ -12,7 +12,6 @@ const linkedinIcon = <FontAwesomeIcon icon={faLinkedin} size="2x" />;
 const icons = [
   { icon: githubIcon, url: "https://github.com/kathythekat" },
   { icon: instagramIcon, url: "https://www.instagram.com/kathythekat/" },
-  ,
   {
     icon: linkedinIcon,
     url: "https://www.linkedin.com/in/kat-huang-599b6a66/",

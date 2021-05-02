@@ -9,7 +9,11 @@ function Home() {
   return (
     <>
       <div className="container my-12 flex flex-col lg:flex-row justify-center items-center">
-        <img className="w-10/12 md:max-w-sm h-auto rounded-lg" src={Montana} />
+        <img
+          className="w-10/12 md:max-w-sm h-auto rounded-lg"
+          alt="Montana"
+          src={Montana}
+        />
         <div className="container flex flex-col m-8 max-w-md">
           <h1>Kat Huang</h1>
           <h4 className="my-2">Software engineer based in San Francisco, CA</h4>

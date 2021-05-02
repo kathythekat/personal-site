@@ -1,7 +1,13 @@
 import { useRef, useState } from "react";
 import { createPopper } from "@popperjs/core";
+import ProjectImage from "./ProjectImage";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-const Popover = ({ color }) => {
+const githubIcon = <FontAwesomeIcon icon={faGithub} size="2x" />;
+
+function Popover({ project }) {
+  const { name, image, description, tools, demo, github } = project;
   const [popoverShow, setPopoverShow] = useState(false);
   const btnRef = useRef();
   const popoverRef = useRef();
@@ -19,42 +25,43 @@ const Popover = ({ color }) => {
       <div className="flex flex-wrap">
         <div className="w-full text-center">
           <button
-            className={
-              "bg-" +
-              color +
-              "-500 text-white active:bg-" +
-              color +
-              "-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-            }
+            className="focus:outline-none"
             type="button"
             onClick={() => {
               popoverShow ? closePopover() : openPopover();
             }}
             ref={btnRef}
           >
-            bottom {color}
+            <ProjectImage img={image} />
           </button>
           <div
             className={
               (popoverShow ? "" : "hidden ") +
-              "bg-" +
-              color +
-              "-600 border-0 mt-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg"
+              "bg-gray-500 border-0 mt-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg"
             }
             ref={popoverRef}
           >
             <div>
               <div
                 className={
-                  "bg-" +
-                  color +
-                  "-600 text-white opacity-75 font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg"
+                  "flex items-center justify-between bg-gray-500 text-white font-semibold p-2 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg"
                 }
               >
-                {color} popover title
+                <div className="flex">
+                  <span>{name}</span>
+                </div>
+                <div className="flex items-center justify-end">
+                  <a href={demo} className="text-green-300">
+                    demo
+                  </a>
+                  <a href={github} className="text-purple-300 pl-3">
+                    {githubIcon}
+                  </a>
+                </div>
               </div>
               <div className="text-white p-3">
-                And here's some amazing content. It's very engaging. Right?
+                <p>Created with {tools}</p>
+                <p>{description}</p>
               </div>
             </div>
           </div>
@@ -62,12 +69,6 @@ const Popover = ({ color }) => {
       </div>
     </>
   );
-};
-
-export default function PopoverRender() {
-  return (
-    <>
-      return <Popover color="gray" />
-    </>
-  );
 }
+
+export default Popover;

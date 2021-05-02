@@ -1,7 +1,7 @@
 import { Route, Switch } from "react-router";
 import About from "./About";
 import Home from "./Home";
-import Projects from "./Project";
+import Projects from "./Projects";
 
 function Routes() {
   return (

@@ -26,9 +26,11 @@ const PROJECTS = [
 function Projects() {
   return (
     <>
-      <h1 className="text-center mt-4">Some things I've built</h1>
-      <h3 className="text-center">Click on each project to find out more!</h3>
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:space-x-12 my-8">
+      <h1 className="text-center mt-4 p-2">Some things I've built</h1>
+      <h3 className="text-center text-lg p-2">
+        Click on each project to find out more!
+      </h3>
+      <div className="flex flex-col items-center justify-center lg:space-x-12 lg:my-8 lg:flex-row ">
         {PROJECTS.map((p) => (
           <Popover project={{ ...p }} />
         ))}

@@ -60,8 +60,8 @@ function Popover({ project }) {
                 </div>
               </div>
               <div className="text-white p-3">
-                <p>Created with {tools}</p>
-                <p>{description}</p>
+                <p className="p-1">Created with {tools}</p>
+                <p className="p-1">{description}</p>
               </div>
             </div>
           </div>

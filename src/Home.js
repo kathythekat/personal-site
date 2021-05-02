@@ -14,10 +14,10 @@ function Home() {
           alt="Montana"
           src={Montana}
         />
-        <div className="container flex flex-col m-8 max-w-md">
+        <div className="container flex flex-col p-8 lg:m-8 max-w-md">
           <h1>Kat Huang</h1>
           <h4 className="my-2">Software engineer based in San Francisco, CA</h4>
-          <h4>
+          <h4 className="">
             {stack}: React, Node.JS, Express, Flask, SQLAlchemy, PostgreSQL,
             Python, Tailwind, Bootstrap, JQuery, Jest, Jasmine
           </h4>

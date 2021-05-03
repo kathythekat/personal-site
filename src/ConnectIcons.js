@@ -3,11 +3,13 @@ import {
   faGithub,
   faInstagram,
   faLinkedin,
+  faStrava,
 } from "@fortawesome/free-brands-svg-icons";
 
 const githubIcon = <FontAwesomeIcon icon={faGithub} size="2x" />;
 const instagramIcon = <FontAwesomeIcon icon={faInstagram} size="2x" />;
 const linkedinIcon = <FontAwesomeIcon icon={faLinkedin} size="2x" />;
+const stravaIcon = <FontAwesomeIcon icon={faStrava} size="2x" />;
 
 const icons = [
   { icon: githubIcon, url: "https://github.com/kathythekat" },
@@ -16,6 +18,7 @@ const icons = [
     icon: linkedinIcon,
     url: "https://www.linkedin.com/in/kat-huang-599b6a66/",
   },
+  { icon: stravaIcon, url: "https://www.strava.com/athletes/46730453" },
 ];
 
 function ConnectIcons() {

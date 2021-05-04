@@ -1,5 +1,3 @@
-import Carousel from "./Carousel";
-
 function About() {
   return (
     <div className="container flex flex-col items-center my-12 lg:my-20">

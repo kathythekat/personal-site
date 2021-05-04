@@ -1,5 +1,5 @@
 import { Route, Switch, Redirect } from "react-router";
-import About from "./About";
+import About from "./about-me/About";
 import Home from "./Home";
 import Projects from "./Projects";
 

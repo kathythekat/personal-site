@@ -16,7 +16,7 @@ const PROJECTS = [
     name: "PeTinder",
     tools: "React, Tailwind",
     description:
-      "Like Tinder, but for pets. Using the Petfinder API, users are given a random pet.",
+      'Like Tinder, but for pet adoption! Using the Petfinder API, users can select through random pets until they find "the one."',
     image: petinder,
     demo: "http://petinder.surge.sh/",
     github: "https://github.com/kathythekat/petfinder",

@@ -20,6 +20,7 @@ function Popover({ project }) {
   const closePopover = () => {
     setPopoverShow(false);
   };
+
   return (
     <>
       <div className="flex flex-wrap">
@@ -60,7 +61,7 @@ function Popover({ project }) {
                 </div>
               </div>
               <div className="text-white p-3">
-                <p className="p-1">Created with {tools}</p>
+                <p className="p-1">Built with {tools}</p>
                 <p className="p-1">{description}</p>
               </div>
             </div>

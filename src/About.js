@@ -1,7 +1,7 @@
 function About() {
   return (
     <div className="container flex flex-col items-center">
-      <div className="max-w-sm m-4 lg:my-8 border border-black rounded-lg p-4">
+      <div className="max-w-sm m-4 lg:my-8 border border-black rounded-lg shadow-lg p-4">
         <h1 className="my-2">Get to know me.</h1>
         <p>
           I am a SF native who recently discovered a newfound love for coding.

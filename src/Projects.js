@@ -1,16 +1,16 @@
 import madlibs from "./images/madlibs.png";
 import petinder from "./images/petinder.png";
-import Popover from "./Popover";
+import Popover from "./Popover"
+import jobly from "./images/jobly.png";
 
 const PROJECTS = [
   {
-    name: "Madlibs",
-    tools: "React, Bootstrap",
-    description:
-      "Given some prompts, users fill out a form and create some silly or imaginative short stories!",
-    image: madlibs,
-    demo: "http://madlibs.surge.sh/",
-    github: "https://github.com/kathythekat/react-madlibs",
+    name: "Jobly",
+    tools: "React, Node, Express, PostgreSQL, Bootstrap",
+    description: "A full stack app where users can search for jobs/companies, apply to jobs, sign up, login, and edit their profiles.",
+    image: jobly,
+    demo: "http://kat-jobly.surge.sh",
+    github: "https://github.com/kathythekat/React-Jobly"
   },
   {
     name: "PeTinder",
@@ -21,6 +21,15 @@ const PROJECTS = [
     demo: "http://petinder.surge.sh/",
     github: "https://github.com/kathythekat/petfinder",
   },
+  {
+    name: "Madlibs",
+    tools: "React, Bootstrap",
+    description:
+      "A fun app to bring back childhood imagination. Given some prompts, users fill out a form and create some funny short stories!",
+    image: madlibs,
+    demo: "http://madlibs.surge.sh/",
+    github: "https://github.com/kathythekat/react-madlibs",
+  }
 ];
 
 function Projects() {

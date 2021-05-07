@@ -23,11 +23,11 @@ const icons = [
 
 function ConnectIcons() {
   return (
-    <div className="flex flex-row justify-center">
+    <div className="flex flex-row justify-center lg:text-lg">
       Connect with me:{" "}
       {icons.map((i) => (
         <div className="mx-2">
-          <a className="fill-current hover:text-purple-400 " href={i.url}>
+          <a className="fill-current hover:text-purple-500 " href={i.url}>
             {i.icon}
           </a>
         </div>

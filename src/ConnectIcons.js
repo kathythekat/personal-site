@@ -25,8 +25,8 @@ function ConnectIcons() {
   return (
     <div className="flex flex-row justify-center lg:text-lg">
       Connect with me:{" "}
-      {icons.map((i) => (
-        <div className="mx-2">
+      {icons.map((i, idx) => (
+        <div className="mx-2" key={idx}>
           <a className="fill-current hover:text-purple-500 " href={i.url}>
             {i.icon}
           </a>

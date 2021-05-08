@@ -40,8 +40,8 @@ function Projects() {
         Click on each project to find out more!
       </h3>
       <div className="flex flex-col items-center justify-center lg:space-x-12 lg:my-8 lg:flex-row ">
-        {PROJECTS.map((p) => (
-          <Popover project={{ ...p }} />
+        {PROJECTS.map((p, i) => (
+          <Popover key={i} project={{ ...p }} />
         ))}
       </div>
     </>

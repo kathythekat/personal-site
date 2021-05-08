@@ -1,5 +1,6 @@
 import ConnectIcons from "./ConnectIcons";
 import Montana from "./images/montana.jpg";
+import remyoat from './images/remyoat.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLayerGroup } from "@fortawesome/free-solid-svg-icons";
 

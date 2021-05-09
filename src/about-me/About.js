@@ -6,7 +6,7 @@ function About() {
       <div className="flex flex-col items-center justify-center m-4 lg:my-8 lg:p-8">
         <h1 className="my-4 text-center">Get to know me.</h1>
         <img className="rounded-full h-72" src={kathuang} alt="kathuang" />
-        <p className="p-4 lg:text-lg text-center max-w-lg">
+        <p className="p-4 lg:text-lg text-left max-w-lg">
         I am a SF native who recently discovered a newfound love for coding.
           I'm especially drawn to building beautiful, minimalistic, and
           UI-focused frontend things. Before this path, I was a critical care

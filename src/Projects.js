@@ -35,10 +35,7 @@ const PROJECTS = [
 function Projects() {
   return (
     <>
-      <h1 className="text-center mt-4 p-2">Some things I've built</h1>
-      <h3 className="text-center text-lg p-2">
-        Click on each project to find out more!
-      </h3>
+      <h1 className="text-center mt-4 p-2">Things I've built</h1>
       <div className="flex flex-col items-center justify-center lg:space-x-12 lg:my-8 lg:flex-row ">
         {PROJECTS.map((p, i) => (
           <Popover key={i} project={{ ...p }} />

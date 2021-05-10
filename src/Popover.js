@@ -52,10 +52,10 @@ function Popover({ project }) {
                   <span>{name}</span>
                 </div>
                 <div className="flex items-center justify-end">
-                  <a href={demo} className="text-green-300">
+                  <a href={demo} className="text-green-300 hover:text-purple-300">
                     demo
                   </a>
-                  <a href={github} className="text-purple-300 pl-3">
+                  <a href={github} className="text-purple-300 hover:text-green-300 pl-3">
                     {githubIcon}
                   </a>
                 </div>

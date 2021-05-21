@@ -10,12 +10,12 @@ function NavBar() {
           exact
           to="/"
         >
-          Home
+          <i class="fas fa-home fa-2x"></i>
         </NavLink>
       </div>
       <div className="flex justify-end">
         <NavLink
-          className="p-3 hover:text-white mr-1 lg:text-lg"
+          className="p-4 hover:text-white mr-1 lg:text-lg"
           activeStyle={{ color: "white" }}
           exact
           to="/about"
@@ -23,7 +23,7 @@ function NavBar() {
           About
         </NavLink>
         <NavLink
-          className="p-3 hover:text-white mr-1 lg:text-lg"
+          className="p-4 hover:text-white mr-1 lg:text-lg"
           activeStyle={{ color: "white" }}
           exact
           to="/projects"

@@ -28,8 +28,7 @@ function Home() {
           <h4 className="lg:text-lg my-4">Software Engineer based in San Francisco, CA</h4>
           <h4 className="lg:text-lg">
             <p className="my-2">Languages: JavaScript, Python, SQL, CSS, HTML</p>
-            <span className="text-purple-500 text-sm lg:text-lg">{stack}</span>: React, TypeScript, GraphQL, Node, Express, Flask, SQLAlchemy, PostgreSQL,
-            Python, Tailwind, Sass, Bootstrap, JQuery, Jest, Jasmine
+            <span className="text-purple-500 text-sm lg:text-lg">{stack}</span>: React, TypeScript, GraphQL, Node, Express, Flask, SQLAlchemy, PostgreSQL,Tailwind, Sass, Bootstrap, jQuery, Jest
           </h4>
           <a href={Resume} target="_blank" rel="noreferrer">
         <button 

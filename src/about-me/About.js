@@ -3,7 +3,7 @@ import kathuang from '../images/kathuang.JPG'
 function About() {
   return (
     <div className="flex flex-col items-center justify-center w-screen">
-      <div className="flex flex-col items-center justify-center m-4 lg:my-6 lg:p-8">
+      <div className="flex flex-col items-center justify-center my-4 lg:my-8 lg:p-8">
         <h1 className="my-4 text-center">Get to know me.</h1>
         <img className="rounded-full h-72" src={kathuang} alt="kathuang" />
         <p className="p-4 lg:text-lg text-left max-w-lg">

@@ -17,7 +17,7 @@ function Home() {
         />
         <div className="flex flex-col p-8 lg:m-8 max-w-md lg:max-w-xl">
           <h1 className="lg:text-5xl">Kat Huang</h1>
-          <h4 className="lg:text-lg my-4">Software engineer based in San Francisco, CA</h4>
+          <h4 className="lg:text-lg my-4">Software Engineer based in San Francisco, CA</h4>
           <h4 className="lg:text-lg">
             <p className="my-2">Languages: JavaScript, Python, SQL, CSS, HTML</p>
             <span className="text-purple-500 text-sm lg:text-lg">{stack}</span>: React, TypeScript, GraphQL, Node, Express, Flask, SQLAlchemy, PostgreSQL,

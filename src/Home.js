@@ -23,7 +23,7 @@ function Home() {
             <span className="text-purple-500 text-sm lg:text-lg">{stack}</span>: React, TypeScript, GraphQL, Node, Express, Flask, SQLAlchemy, PostgreSQL,
             Python, Tailwind, Sass, Bootstrap, JQuery, Jest, Jasmine
           </h4>
-          <a href={Resume} target="_blank">
+          <a href={Resume} target="_blank" rel="noreferrer">
         <button className="text-green-500 bg-transparent border border-solid border-green-500 hover:bg-green-400 hover:text-white active:bg-blue-600 font-bold text-md mt-4 px-6 py-3 rounded-lg outline-none focus:outline-none mr-2 mb-1 ease-linear transition-all duration-500 animate-wiggle" type="button"
         >
          Want me on your team? <i class="fas fa-laptop"></i>

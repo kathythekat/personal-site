@@ -10,7 +10,10 @@ const stack = <FontAwesomeIcon icon={faLayerGroup} size="2x" />;
 function Home() {
   const animateRef = useRef(null);
 
-  function pauseAnimation(e) {
+  function wiggleButton(e) {
+    animateRef.current.classList.add("animate-wiggle");
+  }
+  function stopWiggle(e) {
     animateRef.current.classList.remove("animate-wiggle");
   }
 
@@ -30,11 +33,13 @@ function Home() {
           <a href={Resume} target="_blank" rel="noreferrer">
             <button
               ref={animateRef}
-              className="text-green-500 bg-transparent border border-solid border-green-500 hover:bg-green-500 hover:text-white active:bg-green-500 font-bold text-md mt-2 mb-4 px-6 py-3 rounded-lg outline-none focus:outline-none mr-2 ease-linear transition-all duration-500 animate-wiggle items-center"
+              className="text-white bg-green-500 hover:bg-green-600 hover:text-white active:bg-green-500 font-bold text-md mt-2 mb-4 px-6 py-3 rounded-lg outline-none focus:outline-none mr-2 ease-linear transition-all duration-500 items-center"
               type="button"
-              onMouseEnter={pauseAnimation}
+              onMouseEnter={wiggleButton}
+              onMouseLeave={stopWiggle}
+              onClick={() => window.dataLayer.push({'buttonClick': 'hire-kat'})}
             >
-              Want me on your team? <i className="fas fa-laptop"></i>
+              Hire me! <i className="fas fa-laptop"></i>
             </button>
           </a>
           <h4 className="lg:text-lg">

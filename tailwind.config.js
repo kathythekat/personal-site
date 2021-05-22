@@ -19,19 +19,19 @@ module.exports = {
             transform: 'rotateZ(0)'
           },
           '15%': {
-            transform: 'rotateZ(-15deg)'
+            transform: 'rotateZ(-11deg)'
           },
           '20%': {
-            transform: 'rotateZ(10deg)'
-          },
-          '25%':{
-            transform: 'rotateZ(-10deg)'
-          },
-          '30%': {
             transform: 'rotateZ(6deg)'
           },
+          '25%':{
+            transform: 'rotateZ(-6deg)'
+          },
+          '30%': {
+            transform: 'rotateZ(2deg)'
+          },
           '35%': {
-            transform: 'rotateZ(-4deg)'
+            transform: 'rotateZ(1deg)'
           },
           '40%, 100%': {
             transform: 'rotateZ(0)'
@@ -39,7 +39,7 @@ module.exports = {
         }
        },
        animation: {
-        wiggle: 'wiggle 2s linear infinite',
+        wiggle: 'wiggle 2s linear',
        }
     },
   },

@@ -37,7 +37,6 @@ function Home() {
               type="button"
               onMouseEnter={wiggleButton}
               onMouseLeave={stopWiggle}
-              onClick={() => window.dataLayer.push({'buttonClick': 'hire-kat'})}
             >
               Hire me! <i className="fas fa-laptop"></i>
             </button>

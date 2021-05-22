@@ -33,7 +33,7 @@ function Home() {
           <a href={Resume} target="_blank" rel="noreferrer">
             <button
               ref={animateRef}
-              className="text-white bg-green-500 hover:bg-green-600 hover:text-white active:bg-green-500 font-bold text-md mt-2 mb-4 px-6 py-3 rounded-lg outline-none focus:outline-none mr-2 ease-linear transition-all duration-500 items-center"
+              className="text-white bg-seagreen hover:bg-forest hover:text-white active:bg-green-500 text-md mt-2 mb-4 px-5 py-3 rounded-lg outline-none focus:outline-none mr-2 items-center"
               type="button"
               onMouseEnter={wiggleButton}
               onMouseLeave={stopWiggle}
@@ -41,7 +41,7 @@ function Home() {
                 window.dataLayer.push({ "button-event": "hire-clicked" })
               }
             >
-              Hire me! <i className="fas fa-laptop"></i>
+              Hire me! <i className="far fa-file"></i>
             </button>
           </a>
           <h4 className="lg:text-lg">

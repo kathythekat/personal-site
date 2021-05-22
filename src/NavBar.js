@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav className="bg-gradient-to-r from-indigo-400 via-blue-300 to-green-200 flex justify-between my-auto mx-auto w-full">
+    <nav className="bg-gradient-to-r from-indigo-400 via-blue-300 to-lightgreen flex justify-between my-auto mx-auto w-full">
       <div className="flex">
         <NavLink
           className="p-3 hover:text-white justify-self-start ml-1 lg:text-lg"

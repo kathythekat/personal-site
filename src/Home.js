@@ -49,8 +49,8 @@ function Home() {
               Languages: JavaScript, Python, SQL, CSS, HTML
             </p>
             <span className="text-purple-500 text-sm lg:text-lg">{stack}</span>:
-            React, TypeScript, GraphQL, Node, Express, Flask, SQLAlchemy,
-            PostgreSQL, Tailwind, Sass, Bootstrap, jQuery, Jest
+            React, TypeScript, GraphQL, Node, Express, Jest, Cypress,
+            PostgreSQL, Flask, SQLAlchemy, Tailwind, Sass, Bootstrap, jQuery
           </h4>
         </div>
       </div>

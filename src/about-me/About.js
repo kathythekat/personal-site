@@ -8,13 +8,18 @@ function About() {
         <img className="rounded-full h-72" src={kathuang} alt="kathuang" />
         <p className="p-4 lg:text-lg text-left max-w-lg">
           <i className="fas fa-arrow-right"></i> SF Native 🌁 <br />
-          <i className="fas fa-arrow-right"></i> Love building quality UI 👩🏻‍💻
+          <i className="fas fa-arrow-right"></i> Problem solver with a creative
+          spark 💡
+          <br />
+          <i className="fas fa-arrow-right"></i> Builder of quality UI/UX 👩🏻‍💻
           <br />
           <i className="fas fa-arrow-right"></i> Gravel cyclist 🚵‍♀️
           <br />
           <i className="fas fa-arrow-right"></i> Dog mom of 2 🐕 🐺
           <br />
-          <i className="fas fa-arrow-right"></i> Was an ICU Nurse for 6 yrs 💉
+          <i className="fas fa-arrow-right"></i> Explorer of the outdoors 🌲
+          <br />
+          <i className="fas fa-arrow-right"></i> Former ICU nurse 💉
           <br />
         </p>
       </div>

@@ -30,7 +30,7 @@ function Home() {
           <h4 className="lg:text-lg my-4">
             Software Engineer based in San Francisco, CA
           </h4>
-          <a href={Resume} target="_blank" rel="noreferrer">
+          <a href={Resume} target="_blank" rel="noreferrer" className="w-40">
             <button
               ref={animateRef}
               className="text-white bg-seagreen hover:bg-forest hover:text-white active:bg-green-500 text-md mt-2 mb-4 px-5 py-3 rounded-lg outline-none focus:outline-none mr-2 items-center"

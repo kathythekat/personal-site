@@ -33,7 +33,7 @@ function Home() {
           <a href={Resume} target="_blank" rel="noreferrer" className="w-40">
             <button
               ref={animateRef}
-              className="text-white bg-seagreen hover:bg-forest hover:text-white active:bg-green-500 text-sm mt-2 mb-4 px-4 py-3 rounded-lg outline-none focus:outline-none mr-2 items-center w-52"
+              className="text-white bg-seagreen hover:bg-forest hover:text-white active:bg-green-500 text-sm mt-2 mb-4 p-3 rounded-lg outline-none focus:outline-none mr-2 items-center w-52"
               type="button"
               onMouseEnter={wiggleButton}
               onMouseLeave={stopWiggle}

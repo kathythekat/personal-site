@@ -16,7 +16,7 @@ module.exports = {
             transform: "rotateZ(0)",
           },
           "15%": {
-            transform: "rotateZ(-11deg)",
+            transform: "rotateZ(-10deg)",
           },
           "20%": {
             transform: "rotateZ(6deg)",

@@ -11,8 +11,8 @@ function About() {
           <i className="fas fa-arrow-right"></i> Problem solver with a creative
           spark 💡
           <br />
-          <i className="fas fa-arrow-right"></i> Builder of UI with a curiosity
-          in DevOps 🐳
+          <i className="fas fa-arrow-right"></i> Builder of UI, dabbler in
+          DevOps 🐳
           <br />
           <i className="fas fa-arrow-right"></i> Avid cyclist 🚵‍♀️
           <br />

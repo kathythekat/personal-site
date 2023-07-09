@@ -16,7 +16,7 @@ function About() {
           <br />
           <i className="fas fa-arrow-right"></i> Gravel cyclist 🚵‍♀️
           <br />
-          <i className="fas fa-arrow-right"></i> Dog mom of 2 🐕 🐺
+          <i className="fas fa-arrow-right"></i> Lover of animals 🐕 🐺
           <br />
           <i className="fas fa-arrow-right"></i> Explorer of the outdoors 🌲
           <br />

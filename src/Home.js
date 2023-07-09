@@ -3,7 +3,7 @@ import ConnectIcons from "./ConnectIcons";
 import bikePacking from "./images/bikepack.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLayerGroup } from "@fortawesome/free-solid-svg-icons";
-import Resume from "./resume/KatHuang_Resume.pdf";
+import Resume from "./resume/Kat Goo Dev Resume.pdf";
 
 const stack = <FontAwesomeIcon icon={faLayerGroup} size="2x" />;
 
@@ -26,7 +26,7 @@ function Home() {
           src={bikePacking}
         />
         <div className="flex flex-col p-8 lg:m-8 max-w-md lg:max-w-xl">
-          <h1 className="lg:text-5xl">Kat Huang</h1>
+          <h1 className="lg:text-5xl">Kat Goo</h1>
           <h4 className="lg:text-lg my-4">
             Software Engineer based in San Francisco, CA
           </h4>
@@ -41,7 +41,7 @@ function Home() {
                 window.dataLayer.push({ "button-event": "hire-clicked" })
               }
             >
-              Let's build things! <i className="far fa-file"></i>
+              Let's work together! <i className="far fa-file"></i>
             </button>
           </a>
           <h4 className="lg:text-lg">

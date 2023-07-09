@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import ConnectIcons from "./ConnectIcons";
-import bikePacking from "./images/bikepack.jpg";
+import bikePacking from "./images/bike2023.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLayerGroup } from "@fortawesome/free-solid-svg-icons";
 import Resume from "./resume/Kat Goo Dev Resume.pdf";
@@ -22,7 +22,7 @@ function Home() {
       <div className="lg:h-1/2 mt-10 mb-6 lg:my-20 lg:p-8 flex flex-col lg:flex-row justify-center items-center">
         <img
           className="w-10/12 max-w-sm lg:max-w-md h-auto rounded-lg shadow-lg"
-          alt="bikepacking in Montana"
+          alt="biking in Marin"
           src={bikePacking}
         />
         <div className="flex flex-col p-8 lg:m-8 max-w-md lg:max-w-xl">

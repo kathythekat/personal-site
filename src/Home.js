@@ -45,12 +45,10 @@ function Home() {
             </button>
           </a>
           <h4 className="lg:text-lg">
-            <p className="my-2">
-              Languages: JavaScript, Python, SQL, CSS, HTML
-            </p>
             <span className="text-purple-500 text-sm lg:text-lg">{stack}</span>:
-            React, TypeScript, GraphQL, Node, Express, Jest, Cypress,
-            PostgreSQL, Flask, SQLAlchemy, Tailwind, Sass, Bootstrap, jQuery
+            React, TypeScript, GraphQL, Node, Express, Jest, React Testing
+            Library, Postgres, NestJS, TypeORM, Material UI, Tailwind, Docker,
+            Kubernetes, Github Actions
           </h4>
         </div>
       </div>

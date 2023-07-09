@@ -11,16 +11,14 @@ function About() {
           <i className="fas fa-arrow-right"></i> Problem solver with a creative
           spark 💡
           <br />
-          <i className="fas fa-arrow-right"></i> Builder of UI, writer of clean
-          code 👩🏻‍💻
+          <i className="fas fa-arrow-right"></i> Builder of UI with a curiosity
+          in DevOps 🐳
           <br />
-          <i className="fas fa-arrow-right"></i> Gravel cyclist 🚵‍♀️
+          <i className="fas fa-arrow-right"></i> Avid cyclist 🚵‍♀️
           <br />
-          <i className="fas fa-arrow-right"></i> Lover of animals 🐕 🐺
+          <i className="fas fa-arrow-right"></i> Shelter dog volunteer 🐕 🐺
           <br />
-          <i className="fas fa-arrow-right"></i> Explorer of the outdoors 🌲
-          <br />
-          <i className="fas fa-arrow-right"></i> Former ICU nurse 💉
+          <i className="fas fa-arrow-right"></i> Seamstress for bike bags 🧵
           <br />
         </p>
       </div>

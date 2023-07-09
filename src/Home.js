@@ -33,7 +33,7 @@ function Home() {
           <a href={Resume} target="_blank" rel="noreferrer" className="w-40">
             <button
               ref={animateRef}
-              className="text-white bg-seagreen hover:bg-forest hover:text-white active:bg-green-500 text-sm mt-2 mb-4 p-3 rounded-lg outline-none focus:outline-none mr-2 items-center w-56"
+              className="text-white bg-pink-400 hover:bg-pink-500 hover:text-white active:bg-green-500 text-sm mt-2 mb-4 p-3 rounded-lg outline-none focus:outline-none mr-2 items-center w-56"
               type="button"
               onMouseEnter={wiggleButton}
               onMouseLeave={stopWiggle}
@@ -41,11 +41,11 @@ function Home() {
                 window.dataLayer.push({ "button-event": "hire-clicked" })
               }
             >
-              Let's work together! <i className="far fa-file"></i>
+              What have I been up to? <i className="far fa-file"></i>
             </button>
           </a>
           <h4 className="lg:text-lg">
-            <span className="text-purple-500 text-sm lg:text-lg">{stack}</span>:
+            <span className="text-orange-400 text-sm lg:text-lg">{stack}</span>:
             React, TypeScript, GraphQL, Node, Express, Jest, React Testing
             Library, Postgres, NestJS, TypeORM, Material UI, Tailwind, Docker,
             Kubernetes, Github Actions

@@ -45,7 +45,7 @@ function Home() {
             </button>
           </a>
           <h4 className="lg:text-lg">
-            <span className="text-orange-400 text-sm lg:text-lg">{stack}</span>:
+            <span className="text-pink-400 text-sm lg:text-lg">{stack}</span>:
             React, TypeScript, GraphQL, Node, Express, Jest, React Testing
             Library, Postgres, NestJS, TypeORM, Material UI, Tailwind, Docker,
             Kubernetes, Github Actions

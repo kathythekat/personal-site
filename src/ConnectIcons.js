@@ -33,7 +33,7 @@ function ConnectIcons() {
       <p className="hidden lg:block">Connect with me: </p>
       {icons.map((i, idx) => (
         <div className="mx-2" key={idx}>
-          <a className="fill-current hover:text-purple-500 " href={i.url}>
+          <a className="fill-current hover:text-pink-400 " href={i.url}>
             {i.icon}
           </a>
         </div>

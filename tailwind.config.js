@@ -42,6 +42,10 @@ module.exports = {
         seagreen: "#59BD96",
         forest: "#4CAD87",
         lightgreen: "#7CE5C2",
+        orange: {
+          400: "#fb923c",
+          500: "#f97316",
+        },
       },
     },
   },
